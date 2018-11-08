@@ -1,2 +1,2 @@
 # Projeto-Smart-Security
-Projeto de site voltado para ensinar pessoas/usuários há se protegerem na interner
+Projeto de site voltado para pessoas/usuários a como se protegerem na internet.
