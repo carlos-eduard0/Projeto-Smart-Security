@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=K2D');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.logo{
+    position: relative;
+}
+.logotopo{ 
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-family: 'K2D', sans-serif;
+    color:rgba(56, 120, 180, 0.575);
+    margin: 1rem;   
+    font-size: 23px;
+}   
+.intro{
+    /*definindo uma imagem, altura, largura, para o site*/
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(../img/cel3.jpeg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+#texto-central{
+    /*Pai dos elementos h1 & h2, deixando eles flex em coluna, e alinhado/justificado no centro*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+#texto-central h1{
+    margin-top: -38rem;
+    color:rgb(0, 0, 0);
+    font-family: 'Muli',sans-serif;
+    font-size: 75px;
+    text-align: center;
+}
+#texto-central h2{
+    margin: -1rem;
+    color: rgb(36, 36, 36);
+    font-family: 'Muli',sans-serif;
+    font-size: 41px;
+    text-align: center;
+}
+.btn1{
+    display:flex;
+    justify-content: center;
+    margin-top: -32rem;
+}
+.btn{
+    border-radius:45px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 500%;
+    padding: 10px 30px;
+    border: solid black 8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.btn:hover{
+    color:#fff;
+    border:solid #fff 3px;
+    background: rgb(100, 97, 97);
+}
+.menu{    
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+ .home{
+    display: inline-block;
+    margin: 4rem 2rem;
+    color: black;
+    font-size: 40px;
+    font-family: 'Muli', sans-serif;
+ }
+ .icons1{
+     display: none;
+ }
+ .icons2{
+    display: none;
+}
+.icones-cel{
+    margin: 2px 0;
+}
+.icons-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icons-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icons-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icons-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+#eng{
+    background-image:url('../img/eng2.png'); /* url */
+    width:300px; /* largura */
+    height:300px; /* altura */
+    background-size: cover;
+    transition: 0.4s;
+    margin:  3rem 5rem;
+}
+#mal{
+    background-image:url('../img/android.png'); /* url */
+    width:300px; /* largura */
+    height:300px; /* altura */
+    background-size: cover;
+    transition: 0.4s;
+    margin:  3rem 5rem;
+}
+#phis{
+    background-image:url('../img/p.png'); /* url */
+    width:300px; /* largura */
+    height:300px; /* altura */
+    background-size: cover;
+    transition: 0.4s;
+    margin:  3rem 5rem;
+}
+#spa{
+    background-image:url('../img/cartão.png'); /* url */
+    width:300px; /* largura */
+    height:300px; /* altura */
+    background-size: cover;
+    transition: 0.4s;
+    margin:  3rem 5rem;
+}
+#cap{
+    background-image:url('../img/capuz.png'); /* url */
+    width:300px; /* largura */
+    height:300px; /* altura */
+    background-size: cover;
+    transition: 0.4s;
+    margin:  3rem 5rem;
+}
+a{
+    text-decoration: none;
+}
+#texto{
+    font-size: 32px;
+    text-align: center;
+    color: black;
+    font-family: 'Muli',sans-serif;
+}
+
+@media screen and (min-width: 992px){
+    /*aqui começa a parte principal*/
+    .logotopo{ 
+        font-size: 15px;   
+    }   
+    .intro{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background: url(../img/d.jpg);
+        background-size:cover;
+    
+    }
+    #texto-central h1{
+        margin-top: -11rem;
+        color:black;
+        font-family: 'Muli',sans-serif;
+        font-size: 50px;
+        text-align: center;
+        width: 80vw;
+    
+    }
+    #texto-central h2{
+        margin: -1rem;
+        color: black;
+        font-family: 'Muli',sans-serif;
+        font-size: 25px;
+        text-align: center;
+        width: 80vw;
+    }
+    .btn1{
+        display:flex;
+        justify-content: center;
+        margin-top: -32rem;
+    }
+    .btn{
+        margin-top: 20rem;
+        border-radius:9px;
+        font-family: 'Oswald', sans-serif;
+        color: black;
+        font-size: 200%;
+        padding: 10px 20px;
+        border: solid black 3px;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: 0.8s;
+    }
+    .btn:hover{
+        color:#fff;
+        border:solid #fff 3px;
+        background: rgba(32, 43, 75, 0.849);
+    }
+    /*aqui termina a parte principal e começa a segunda parte do site*/
+    .menu{    
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+     .home{
+        display: inline-block;
+        color: black;
+        font-size: 40px;
+        font-family: 'Muli', sans-serif;
+    }
+    .icons1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .icons2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        justify-content: center;
+    
+    }
+    #eng{
+        background-image:url('../img/eng2.png'); /* url */
+        width:200px; /* largura */
+        height:200px; /* altura */
+        background-size: cover;
+        transition: 0.4s;
+        margin: 4rem 15px;
+    }
+    #mal{
+        background-image:url('../img/android.png'); /* url */
+        width:200px; /* largura */
+        height:200px; /* altura */
+        background-size: cover;
+        transition: 0.4s;
+        margin: 4rem 15px;
+    }
+    #phis{
+        background-image:url('../img/p.png'); /* url */
+        width:200px; /* largura */
+        height:200px; /* altura */
+        background-size: cover;
+        transition: 0.4s;
+        margin: 4rem 15px;
+    }
+    #spa{
+        background-image:url('../img/cartão.png'); /* url */
+        width:200px; /* largura */
+        height:200px; /* altura */
+        background-size: cover;
+        transition: 0.4s;
+        margin: 4rem 15px;
+    }
+    #cap{
+        background-image:url('../img/capuz.png'); /* url */
+        width:200px; /* largura */
+        height:200px; /* altura */
+        background-size: cover;
+        transition: 0.4s;
+        margin: 4rem 15px;
+    }
+    #eng:hover{
+        width:230px; /* largura */
+        height:230px; /* altura */
+    }
+    #mal:hover{
+        width:230px; /* largura */
+        height:230px; /* altura */
+    }
+    #phis:hover{
+        width:230px; /* largura */
+        height:230px; /* altura */
+    }
+    #spa:hover{
+        width:230px; /* largura */
+        height:230px; /* altura */
+    }
+    #cap:hover{
+        width:230px; /* largura */
+        height:230px; /* altura */
+    }
+    a{
+        text-decoration: none;
+    }
+    #texto{
+        font-size: 18px;
+        text-align: center;
+        color: black;
+        font-family: 'Muli',sans-serif;
+    }
+    .icones-cel{
+        display: none;
+    }
+    
+}
