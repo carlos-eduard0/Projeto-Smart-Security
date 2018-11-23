@@ -157,6 +157,38 @@ html,body{
     transition: 0.4s;
     margin:  3rem 5rem;
 }
+#worm{
+    background-image:url('../img/Worm.png'); /* url */
+    width:300px; /* largura */
+    height:300px; /* altura */
+    background-size: cover;
+    transition: 0.4s;
+    margin:  3rem 5rem;
+    }
+    #Spy{
+        background-image:url('../img/capuz.png'); /* url */
+        width:300px; /* largura */
+        height:300px; /* altura */
+        background-size: cover;
+        transition: 0.4s;
+        margin:  3rem 5rem;
+     }
+     #Hack{
+        background-image:url('../img/Hacker.png'); /* url */
+        width:300px; /* largura */
+        height:300px; /* altura */
+        background-size: cover;
+        transition: 0.4s;
+        margin:  3rem 5rem;
+     }
+     #Dd{
+        background-image:url('../img/DDoS.png'); /* url */
+        width:300px; /* largura */
+        height:300px; /* altura */
+        background-size: cover;
+        transition: 0.4s;
+        margin:  3rem 5rem;
+     }
 a{
     text-decoration: none;
 }
@@ -288,6 +320,38 @@ a{
         transition: 0.4s;
         margin: 4rem 15px;
     }
+    #worm{
+    background-image:url('../img/Worm.png'); /* url */
+    width:200px; /* largura */
+    height:200px; /* altura */
+    background-size: cover;
+    transition: 0.4s;
+    margin:  4rem 15px;
+    }
+    #Spy{
+        background-image:url('../img/capuz.png'); /* url */
+        width:200px; /* largura */
+        height:200px; /* altura */
+        background-size: cover;
+        transition: 0.4s;
+        margin:  4rem 15px;
+     }
+     #Hack{
+        background-image:url('../img/Hacker.png'); /* url */
+        width:200px; /* largura */
+        height:200px; /* altura */
+        background-size: cover;
+        transition: 0.4s;
+        margin:  4rem 15px;
+     }
+     #Dd{
+        background-image:url('../img/DDoS.png'); /* url */
+        width:200px; /* largura */
+        height:200px; /* altura */
+        background-size: cover;
+        transition: 0.4s;
+        margin:  4rem 15px;
+     }
     #eng:hover{
         width:230px; /* largura */
         height:230px; /* altura */
@@ -305,6 +369,22 @@ a{
         height:230px; /* altura */
     }
     #cap:hover{
+        width:230px; /* largura */
+        height:230px; /* altura */
+    }
+    #worm:hover{
+        width:230px; /* largura */
+        height:230px; /* altura */
+    }
+    #Spy:hover{
+        width:230px; /* largura */
+        height:230px; /* altura */
+    }
+    #Hack:hover{
+        width:230px; /* largura */
+        height:230px; /* altura */
+    }
+    #Dd:hover{
         width:230px; /* largura */
         height:230px; /* altura */
     }
