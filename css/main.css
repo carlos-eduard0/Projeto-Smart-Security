@@ -11,7 +11,7 @@ html,body{
 .logo{
     position: relative;
 }
-.logotopo{ 
+.logotopo{
     position: absolute;
     top: 0;
     right: 10px;
@@ -19,7 +19,19 @@ html,body{
     color:rgba(56, 120, 180, 0.575);
     margin: 1rem;   
     font-size: 23px;
-}   
+} 
+.img1{
+    background-image: url('../img/smart.png');
+    width: 30px;
+    height: 48px;
+    background-size: cover;
+   float: left;
+   margin-right: 1rem;
+   margin-top: 24px;
+}
+.logotopo h1{
+    float: left;
+} 
 .intro{
     /*definindo uma imagem, altura, largura, para o site*/
     height: 100%;
@@ -164,31 +176,31 @@ html,body{
     background-size: cover;
     transition: 0.4s;
     margin:  3rem 5rem;
-    }
-    #Spy{
-        background-image:url('../img/capuz.png'); /* url */
-        width:300px; /* largura */
-        height:300px; /* altura */
-        background-size: cover;
-        transition: 0.4s;
-        margin:  3rem 5rem;
-     }
-     #Hack{
-        background-image:url('../img/Hacker.png'); /* url */
-        width:300px; /* largura */
-        height:300px; /* altura */
-        background-size: cover;
-        transition: 0.4s;
-        margin:  3rem 5rem;
-     }
-     #Dd{
-        background-image:url('../img/DDoS.png'); /* url */
-        width:300px; /* largura */
-        height:300px; /* altura */
-        background-size: cover;
-        transition: 0.4s;
-        margin:  3rem 5rem;
-     }
+}
+#Spy{
+     background-image:url('../img/capuz.png'); /* url */
+     width:300px; /* largura */
+     height:300px; /* altura */
+     background-size: cover;
+     transition: 0.4s;
+     margin:  3rem 5rem;
+ }
+#Hack{
+    background-image:url('../img/Hacker.png'); /* url */
+    width:300px; /* largura */
+    height:300px; /* altura */
+    background-size: cover;
+    transition: 0.4s;
+    margin:  3rem 5rem;
+}
+#Dd{
+    background-image:url('../img/DDoS.png'); /* url */
+    width:300px; /* largura */
+    height:300px; /* altura */
+    background-size: cover;
+    transition: 0.4s;
+    margin:  3rem 5rem;
+}
 a{
     text-decoration: none;
 }
@@ -204,6 +216,18 @@ a{
     .logotopo{ 
         font-size: 15px;   
     }   
+    .logotopo h1{
+        float: left;
+    } 
+    .img1{
+        background-image: url('../img/smart.png');
+        width: 30px;
+        height: 48px;
+        background-size: cover;
+       float: left;
+       margin-right: 1rem;
+       margin-top: 8px;
+    }
     .intro{
         height: 100%;
         width: 100%;
@@ -321,12 +345,12 @@ a{
         margin: 4rem 15px;
     }
     #worm{
-    background-image:url('../img/Worm.png'); /* url */
-    width:200px; /* largura */
-    height:200px; /* altura */
-    background-size: cover;
-    transition: 0.4s;
-    margin:  4rem 15px;
+        background-image:url('../img/Worm.png'); /* url */
+        width:200px; /* largura */
+        height:200px; /* altura */
+        background-size: cover;
+        transition: 0.4s;
+        margin:  4rem 15px;
     }
     #Spy{
         background-image:url('../img/capuz.png'); /* url */

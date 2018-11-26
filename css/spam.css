@@ -81,6 +81,9 @@ html,body{
     color: #727888;
     font-size: 25px;
 }
+.lista li{
+    padding: 22px 0;
+}
 .baixo{
     margin: 150px 0px;
 }
@@ -170,7 +173,7 @@ html,body{
     .lista{
         font-family: 'Muli',sans-serif;
         color: rgb(116, 108, 108);
-        width: 60vw;
+        width: 58vw;
         padding: 0 0 15px;
         font-size: 18px;
         margin: 42px 0px;
