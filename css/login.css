@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+body{
+  background-image: url('../img/pc2.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.logotopo{ 
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-family: 'Muli', sans-serif;
+    color:rgba(56, 120, 180, 0.575);
+    margin: 1rem;   
+    font-size: 15px;   
+}   
+.logotopo h1{
+  float: left;
+} 
+.img1{
+  background-image: url('../img/smart.png');
+  width: 30px;
+  height: 48px;
+  background-size: cover;
+  float: left;
+  margin-right: 1rem;
+  margin-top: 8px;
+}
+.login-caixa{
+  position:relative;
+  margin: 10px auto;
+  width: 500px;
+  height: 380px;
+  background-color: rgb(73, 87, 100);
+  padding: 10px;
+  border-radius: 28px;
+}
+.lb-header{
+  position:relative;
+  color: #00415d;
+  margin: 5px 5px 10px 5px;
+  padding-bottom:10px;
+  border-bottom: 1px solid #eee;
+  text-align:center;
+  height:28px;
+}
+.lb-header a{
+  margin: 0 25px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: rgb(241, 237, 237);
+  font-weight: bold;
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+.lb-header .active{
+  color: #418ace;
+  font-size: 18px;
+}
+.email-login{
+  position:relative;
+  float: left;
+  width: 100%;
+  height:auto;
+  margin-top: 60px;
+  text-align:center;
+}
+.cadastro2{
+  position:relative;
+  float: left;
+  width: 100%;
+  height:auto;
+  margin-top: 20px;
+  text-align:center;
+}
+.form{
+  width:100%;
+  margin-bottom: 10px;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"]{
+  width: calc(50% - 22px);
+  height:45px;
+  outline: none;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+  border-radius: 2px;
+}
+.form input:focus{
+  border-color: #358efb;
+}
+.form button{
+  width:50%;
+  background-color: rgb(24, 46, 105);
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 14px 0;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-family: 'Muli', sans-serif;
+}
+.form button:hover{
+  background-color: rgb(45, 96, 192);
+  transition: 0.8s;
+}
+.senha{
+  width:50%;
+  text-align: left;
+  text-decoration: underline;
+  color: #888;
+  font-size: 0.75rem;
+}
+
+
