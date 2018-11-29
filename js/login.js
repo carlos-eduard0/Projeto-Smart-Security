@@ -26,41 +26,75 @@ class Login{
 }
 
 function salvar(){
-        var modal = document.getElementsByClassName("modal")[0];
-        modal.style.bottom = "20px";
-        var x = new Login();
-        var bd = new Banco();
-        bd.inserir(x);      
+        var nome = document.getElementById("nome").value;
+        var email = document.getElementById("email").value;
+        var senha = document.getElementById("senha").value;
+        if(nome == '' || email == '' || senha == ''){
+            var modal2 = document.getElementsByClassName("modal2")[0];
+            modal2.style.bottom = "20px";
+        }
+        else{
+            var x = new Login();
+            var bd = new Banco();
+             bd.inserir(x);     
+             var modal = document.getElementsByClassName("modal")[0];
+            modal.style.bottom = "20px"; 
+        }
+        
 }
 function hidemodal(){
     var modal = document.getElementsByClassName("modal")[0];
     modal.style.bottom = "-300px";
+
+    var modal2 = document.getElementsByClassName("modal2")[0];
+    modal2.style.bottom = "-300px";
   }
 
 function log(){
-    var bd = new Banco();
-    var vetor = bd.listar();
-    var l;
     var email1 = document.getElementById("vemail").value;
     var senha1 = document.getElementById("vsenha").value;
-    
-    for (var i = 0; i < vetor.length; i++){
-         if ((vetor[i].email == email1 ) && (vetor[i].senha == senha1)){
+    if (email1 == "" || senha1 == "") {
+        var modal2 = document.getElementsByClassName("modal2")[0];
+        modal2.style.bottom = "20px";
+    } else {
+        var bd = new Banco();
+        var vetor = bd.listar();
+        var l;
+        for (var i = 0; i < vetor.length; i++){
+            if ((vetor[i].email == email1 ) && (vetor[i].senha == senha1)){
             l = 1;
             i = vetor.length;
         }
         else{
             l = 0;
         }
-    }
+        }
 
-    if (l == 1) {
-        window.location.href = "index.html"
-        var modal = document.getElementsByClassName("modal2")[0];
-        modal.style.bottom = "20px";
-
+        if (l == 1) {
+            localStorage.setItem("user_logado",email1)
+            window.location.href = "coment.html"
+        }
+        else{
+            var modal2 = document.getElementsByClassName("modal2")[0];
+            modal2.style.bottom = "20px";
+        }
     }
-    else{
-        
-    }
+    
+    
 }
+jQuery(document).ready(function($){
+    $(".cadastro2").hide();
+    $("#cadastro").click(function(){
+      $(".email-login").fadeOut(100);
+      $(".cadastro2").delay(100).fadeIn(100);
+      $("#login-caixa-link").removeClass("active");
+      $("#cadastro").addClass("active");
+    });
+    $("#login-caixa-link").click(function(){
+      $(".email-login").delay(100).fadeIn(100);;
+      $(".cadastro2").fadeOut(100);
+      $("#login-caixa-link").addClass("active");
+      $("#cadastro").removeClass("active");
+    });
+  });
+

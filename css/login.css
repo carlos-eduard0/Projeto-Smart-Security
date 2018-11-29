@@ -107,6 +107,7 @@ body{
   border-radius: 2px;
   text-transform: uppercase;
   font-family: 'Muli', sans-serif;
+  cursor: pointer;
 }
 .form button:hover{
   background-color: rgb(45, 96, 192);
@@ -118,6 +119,118 @@ body{
   text-decoration: underline;
   color: #888;
   font-size: 0.75rem;
+}
+
+
+*{
+
+  text-decoration: none;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.modal{
+  width: 500px;
+  height: 200px;
+  overflow: hidden;
+  background: #34495e;
+  position: fixed;
+  bottom: -300px;
+  right: 20px;
+  transition: 1s;
+}
+.modal img{
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.modal .cadastro{
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+  color: white;
+}
+.cadastro h2{
+  font-size: 20px;
+  font-family: 'Muli', sans-serif;
+}
+.cadastro p{
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+}
+.cadastro a{
+  display: inline-block;
+  background: #e74c3c;
+  padding: 10px 30px;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Muli', sans-serif;
+}
+.hide{
+  position: absolute;
+  z-index: 9999;
+  top: 14px;
+  right: 14px;
+  font-size: 20px;
+  color: black;
+  opacity: 0.7;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.hide:hover{
+  transform: rotate(90deg);
+  opacity: 1;
+}
+.btn{
+  color: #e74c3c;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 8px;
+  border: 2px solid;
+  padding: 10px 20px;
+}
+
+.modal2{
+  width: 500px;
+  height: 200px;
+  overflow: hidden;
+  background: #34495e;
+  position: fixed;
+  bottom: -300px;
+  right: 20px;
+  transition: 1s;
+}
+.modal2 img{
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.modal2 .login{
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+  color: white;
+}
+.login h2{
+  font-size: 20px;
+  font-family: 'Muli', sans-serif;
+}
+.login p{
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+}
+.login a{
+  display: inline-block;
+  background: #e74c3c;
+  padding: 10px 30px;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Muli', sans-serif;
 }
 
 

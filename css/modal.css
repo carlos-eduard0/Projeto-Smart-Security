@@ -22,22 +22,22 @@ body{
   height: 200px;
   float: left;
 }
-.modal .content{
+.modal .cadastro{
   width: 300px;
   padding: 20px;
   box-sizing: border-box;
   float: left;
   color: white;
 }
-.content h2{
+.cadastro h2{
   font-size: 20px;
   font-family: 'Muli', sans-serif;
 }
-.content p{
+.cadastro p{
   font-size: 15px;
   font-family: 'Muli', sans-serif;
 }
-.content a{
+.cadastro a{
   display: inline-block;
   background: #e74c3c;
   padding: 10px 30px;
@@ -69,4 +69,82 @@ body{
   border-radius: 8px;
   border: 2px solid;
   padding: 10px 20px;
+}
+
+.modal2{
+  width: 500px;
+  height: 200px;
+  overflow: hidden;
+  background: #34495e;
+  position: fixed;
+  bottom: -300px;
+  right: 20px;
+  transition: 1s;
+}
+.modal2 img{
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.modal2 .login{
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+  color: white;
+}
+.login h2{
+  font-size: 20px;
+  font-family: 'Muli', sans-serif;
+}
+.login p{
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+}
+.login a{
+  display: inline-block;
+  background: #e74c3c;
+  padding: 10px 30px;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Muli', sans-serif;
+}
+
+.modal3{
+  width: 500px;
+  height: 200px;
+  overflow: hidden;
+  background: #161b30ef;
+  position: fixed;
+  bottom: -300px;
+  right: 20px;
+  transition: 1s;
+}
+.modal3 img{
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.modal3 .comenta{
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+  color: white;
+}
+.comenta h2{
+  font-size: 20px;
+  font-family: 'Muli', sans-serif;
+}
+.comenta p{
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+}
+.comenta a{
+  display: inline-block;
+  background: #e74c3c;
+  padding: 10px 30px;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Muli', sans-serif;
 }
