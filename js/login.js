@@ -27,7 +27,7 @@ class Login{
 
 function salvar(){
         var nome = document.getElementById("nome").value;
-        var email = document.getElementById("email").value;
+        var email = document.getElementById("emailb").value;
         var senha = document.getElementById("senha").value;
         if(nome == '' || email == '' || senha == ''){
             var modal2 = document.getElementsByClassName("modal2")[0];
